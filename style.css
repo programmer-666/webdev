@@ -1,0 +1,7 @@
+.mainDiv {
+    background-color: aqua;
+}
+.mainDiv p[role="alert"] {
+    font-size: 110%;
+    color: wheat;
+}
