@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: VCRMono;
+    color: white;
+}
+@font-face {
+    font-family: VCRMono;
+    src: url(./VCR_OSD_MONO_1.001.ttf);
+}
+
+html {
+    background-color: #121111;
+}
+
+.main-box {
+    position: relative;
+    width: 500px;
+    display: block !important;
+    margin: 5% auto 5% auto;
+}
+.main-box img {
+    border-radius: 25%;
+    width: 500px;
+    /*border: 1px solid black;*/
+}
+.main-box h1 {
+    font-size: 300%;
+    text-align: center;
+}
+.main-box p {
+    text-align: center;
+    width: fit-content;
+}
+.main-box > p.caption {
+    background-image: linear-gradient(45deg, #af4261, #f3ec78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
